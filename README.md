@@ -31,3 +31,8 @@ stap -L 'process("/lib64/libc.so.6").function("malloc")'
 * https://github.com/youzan/systemtap-toolkit
 
 ## Example
+
+* basic
+  * execsnoop-nd.stp	
+    * Trace process exec()s with arguments. 
+    * [link](https://github.com/brendangregg/systemtap-lwtools/blob/master/execsnoop-nd.stp) 
