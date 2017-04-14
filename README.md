@@ -33,6 +33,11 @@ stap -L 'process("/lib64/libc.so.6").function("malloc")'
 ## Example
 
 * basic
-  * execsnoop-nd.stp	
-    * Trace process exec()s with arguments. 
+  * execsnoop-nd.stp
+    * Trace process exec()s with arguments
     * [link](https://github.com/brendangregg/systemtap-lwtools/blob/master/execsnoop-nd.stp) 
+
+* net
+  * accept2close-nd.stp	
+    * Show socket duration: accept()->close()
+    * [link](https://github.com/brendangregg/systemtap-lwtools/blob/master/net/accept2close-nd.stp) 
