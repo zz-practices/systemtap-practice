@@ -1,20 +1,20 @@
 # systemtap-practice
 systemtap practice
 
-## 安装
+## INSTALL
 * CentOS
   ```
   curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
   ```
 
-## 测试
+## TEST
 ```
-# 测试stap
+# test stap
 stap -V
 
-# 测试kernel-debuginfo
+# test kernel-debuginfo
 stap -L 'kernel.function("printk")'
 
-# 测试glibc-debuginfo
+# test glibc-debuginfo
 stap -L 'process("/lib64/libc.so.6").function("malloc")'
 ```
