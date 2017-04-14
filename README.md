@@ -4,7 +4,7 @@
 systemtap practice
 
 ## INSTALL
-* CentOS
+* CentOS 7
   ```
   curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
   ```
