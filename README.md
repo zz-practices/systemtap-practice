@@ -1,7 +1,7 @@
+![image](Screenshots/smileytap.png)
+
 # systemtap-practice
 systemtap practice
-
-![image](Screenshots/smileytap.png)
 
 ## INSTALL
 * CentOS
