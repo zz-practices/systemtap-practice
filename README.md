@@ -1,7 +1,7 @@
 # systemtap-practice
 systemtap practice
 
-![image](Screenshots/smileytap.svg)
+![image](https://raw.githubusercontent.com/WALL-E/systemtap-practice/master/Screenshots/smileytap.svg)
 
 ## INSTALL
 * CentOS
