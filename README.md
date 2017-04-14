@@ -2,9 +2,10 @@
 systemtap practice
 
 ## 安装
-```
-curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
-```
+* centos
+  ```
+  curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
+  ```
 
 ## 测试
 ```
