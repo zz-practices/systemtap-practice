@@ -6,8 +6,8 @@ systemtap practice
 ## INSTALL
 * CentOS 7
   ```
-  curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
-```
+  curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash```
+
 * CentOS 6.8
   ```
   yum install kernel-devel-`uname -r`  # From ISO
