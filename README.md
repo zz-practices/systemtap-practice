@@ -23,7 +23,7 @@ systemtap practice
 
   # 测试kernel-debuginfo
   stap -L 'kernel.function("printk")' > /dev/null && echo "kernel-debuginfo is ok"
-```
+  ```
 
 ## TEST
 ```
