@@ -11,19 +11,8 @@ systemtap practice
 
 * CentOS 6.8
   ```
-  yum install kernel-devel-`uname -r`  # From ISO
-
-  yum install -y http://debuginfo.centos.org/6/`uname -m`/kernel-debuginfo-common-`uname -m`-`uname -r`.rpm
-  yum install -y http://debuginfo.centos.org/6/`uname -m`/kernel-debuginfo-`uname -r`.rpm
-
-  yum install -y systemtap
-
-  # 测试stap
-  stap -V >/dev/null && echo "stap is ok"
-
-  # 测试kernel-debuginfo
-  stap -L 'kernel.function("printk")' > /dev/null && echo "kernel-debuginfo is ok"
-  ```
+  curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap_centos_6.8|bash
+  ```
 
 ## TEST
 ```
