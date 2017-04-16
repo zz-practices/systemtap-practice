@@ -9,11 +9,6 @@ systemtap practice
   curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap|bash
   ```
 
-* CentOS 6.8
-  ```
-  curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_systemtap_centos_6.8|bash
-  ```
-
 ## TEST
 ```
 # test stap
